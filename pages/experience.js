@@ -17,7 +17,7 @@ import {
 
 const Experience = () => {
   return (
-    <Layout>
+    <Layout title="Experience">
       <Container>
         <Section>
           <Heading as="h2" mb={3}>

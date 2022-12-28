@@ -20,7 +20,8 @@ const Deskup = () => {
             src={1}
           >
             <Paragraph>
-              This was a project for my Computer Graphics course. It is a small
+              This was a project for my Computer Graphics course. It is a
+              small&nbsp;
               <Highlight>3D scene</Highlight> of a duck, a barn and a pond. The
               duck can walk using WASD keys.
             </Paragraph>

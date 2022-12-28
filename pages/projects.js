@@ -14,12 +14,16 @@ import Stags from "../public/projects/stags.png";
 import Pato from "../public/projects/threejs duck.png";
 import Web from "../public/projects/web development course.png";
 import Kochrennen from "../public/projects/kochrennen2.png";
+import Wine from "../public/projects/wine.jpg";
+import Luyer from "../public/projects/luyer.png";
+import Wigo from "../public/projects/wigo.png";
+import Changelog from "../public/projects/changelog.png";
 import { useColorModeValue } from "@chakra-ui/react";
 import Layout from "../components/layout/article";
 
 const Projects = () => {
   return (
-    <Layout>
+    <Layout title="Projects">
       <Container>
         <Box>
           <Section>
@@ -48,6 +52,39 @@ const Projects = () => {
             <Section>
               <WorkGridItem id="stags" title="Stags" thumbnail={Stags}>
                 Web application to create playlists based on tags.
+              </WorkGridItem>
+            </Section>
+            <Section>
+              <WorkGridItem
+                id="wine"
+                title="Wine Quality Modelling"
+                thumbnail={Wine}
+              >
+                Data analysis project to predict wine quality using machine
+                learning.
+              </WorkGridItem>
+            </Section>
+            <Section>
+              <WorkGridItem id="luyer" title="Luyer Compiler" thumbnail={Luyer}>
+                Created my own programming language and compiler: Luyer.
+              </WorkGridItem>
+            </Section>
+            <Section>
+              <WorkGridItem
+                id="wigo"
+                title="Wigo Web Application"
+                thumbnail={Wigo}
+              >
+                Simple web application for a small networking company.
+              </WorkGridItem>
+            </Section>
+            <Section>
+              <WorkGridItem
+                id="changelog"
+                title="ChangeLog"
+                thumbnail={Changelog}
+              >
+                Built a simple changelog web application for different projects.
               </WorkGridItem>
             </Section>
             <Section>

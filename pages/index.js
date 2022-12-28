@@ -20,7 +20,7 @@ import Layout from "../components/layout/article";
 
 const Page = () => {
   return (
-    <Layout>
+    <Layout title="Home">
       <Container>
         <Section delay={0.1}>
           <Box display={{ md: "flex" }}>

@@ -34,13 +34,18 @@ import {
   SiScikitlearn,
   SiExpress,
   SiFirebase,
+  SiReact,
+  SiDocker,
+  SiSqlite,
+  SiJava,
+  SiJquery,
 } from "react-icons/si";
 import Section from "../components/section";
 import Layout from "../components/layout/article";
 
 const About = () => {
   return (
-    <Layout>
+    <Layout title="About">
       <Container>
         <Section delay={0.1}>
           <Box>
@@ -191,6 +196,30 @@ const About = () => {
                   </ListItem>
                   <ListItem mt={3}>
                     <ListIcon
+                      as={SiReact}
+                      color="orange.500"
+                      boxSize={6}
+                    ></ListIcon>
+                    React
+                  </ListItem>
+                  <ListItem mt={3}>
+                    <ListIcon
+                      as={SiDocker}
+                      color="orange.500"
+                      boxSize={6}
+                    ></ListIcon>
+                    Docker
+                  </ListItem>
+                  <ListItem mt={3}>
+                    <ListIcon
+                      as={SiMongodb}
+                      color="orange.500"
+                      boxSize={6}
+                    ></ListIcon>
+                    MongoDB
+                  </ListItem>
+                  <ListItem mt={3}>
+                    <ListIcon
                       as={SiCplusplus}
                       color="orange.500"
                       boxSize={6}
@@ -242,11 +271,11 @@ const About = () => {
                   </ListItem>
                   <ListItem mt={3}>
                     <ListIcon
-                      as={SiMongodb}
+                      as={SiSqlite}
                       color="orange.500"
                       boxSize={6}
                     ></ListIcon>
-                    MongoDB
+                    SQLite
                   </ListItem>
                   <ListItem mt={3}>
                     <ListIcon
@@ -287,6 +316,22 @@ const About = () => {
                       boxSize={6}
                     ></ListIcon>
                     Scikitlearn
+                  </ListItem>
+                  <ListItem mt={3}>
+                    <ListIcon
+                      as={SiJava}
+                      color="orange.500"
+                      boxSize={6}
+                    ></ListIcon>
+                    Java
+                  </ListItem>
+                  <ListItem mt={3}>
+                    <ListIcon
+                      as={SiJquery}
+                      color="orange.500"
+                      boxSize={6}
+                    ></ListIcon>
+                    jQuery
                   </ListItem>
                   <ListItem mt={3}>
                     <ListIcon

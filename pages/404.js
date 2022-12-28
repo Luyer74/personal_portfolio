@@ -13,7 +13,7 @@ import { useColorModeValue } from "@chakra-ui/react";
 
 const NotFound = () => {
   return (
-    <Layout>
+    <Layout title="Not Found">
       <Section>
         <Container>
           <Heading as="h1">Not found</Heading>
