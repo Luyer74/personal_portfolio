@@ -39,6 +39,7 @@ import {
   SiSqlite,
   SiJava,
   SiJquery,
+  SiPostgresql
 } from "react-icons/si";
 import Section from "../components/section";
 import Layout from "../components/layout/article";
@@ -54,13 +55,9 @@ const About = () => {
             </Heading>
             <Divider mb={3} borderColor={useColorModeValue("black", "gray")} />
             <Paragraph>
-              <Highlight>Luis Yerik Arámbula Barrera</Highlight> is a Computer
-              Science student based in <Highlight>Monterrey, México</Highlight>.
-              He considers himself a full-stack developer although he's not
-              afraid to get involved in other areas like design and data
-              analysis. When he's not working nor studying, Luis is either
-              gaming or working on a personal project. He also enjoys playing
-              his violin and hanging out with friends.
+              I am a Software Engineer and computer science graduate based in <Highlight> Zapopan, México</Highlight>
+              , currently working at <Highlight>Oracle</Highlight> in the DBAAS team. I am passionate about writing high quality and impactful code, at work and on my own projects. I've mainly worked on web applications (fullstack), data science projects and other more specific tools such as WMS and Database tools. Outside of work, I enjoy
+              gaming, working out and doing personal projects related to web development or data science.
             </Paragraph>
             <Box align="center" my={4}>
               <NextLink href="/projects" scroll={false}>
@@ -92,8 +89,8 @@ const About = () => {
                   color="orange.500"
                   boxSize={6}
                 />
-                <HobbieItem>Gaming</HobbieItem> Mostly League of Legends and
-                indie solo games. My favorite one so far is OMORI. I also enjoy
+                <HobbieItem>Gaming</HobbieItem>
+                <br></br> I play a variety of the popular games such as LoL, Valorant, Fortnite and also enjoy solo indie games too. My favorite one so far is OMORI. I also enjoy
                 watching e-sports.
               </ListItem>
               <ListItem>
@@ -102,9 +99,9 @@ const About = () => {
                   color="orange.500"
                   boxSize={6}
                 />
-                <HobbieItem>Cats</HobbieItem> I have a 1 year old orange tabby
+                <HobbieItem>Cats</HobbieItem> <br></br> I have a 2 year old orange tabby
                 named Benito, who is the inspiration of the 3d model of this
-                website!
+                website! I also recently adopted a tabby point siamese who was found on the street.
               </ListItem>
               <ListItem>
                 <ListIcon
@@ -112,7 +109,7 @@ const About = () => {
                   color="orange.500"
                   boxSize={6}
                 />
-                <HobbieItem>Violin</HobbieItem> Started playing when I was 15
+                <HobbieItem>Violin</HobbieItem> <br></br> I started playing when I was 15
                 years old. I play pretty decent but practice very little
                 nowadays.
               </ListItem>
@@ -122,10 +119,7 @@ const About = () => {
                   color="orange.500"
                   boxSize={6}
                 />
-                <HobbieItem>Music</HobbieItem> My favorite genres are Alt/Indie
-                Rock and Classical Music. My favorite band is The Strokes and my
-                favorite composer is Camille Saint-Saëns. I also love to go to
-                music festivals.
+                <HobbieItem>Music</HobbieItem> <br></br> I enjoy a wide variety of music, but I specially like alt rock and classical music.
               </ListItem>
               <ListItem>
                 <ListIcon
@@ -133,10 +127,10 @@ const About = () => {
                   color="orange.500"
                   boxSize={6}
                 />
-                <HobbieItem>Chess</HobbieItem> Recently began playing a lot of
+                <HobbieItem>Chess</HobbieItem> <br></br> I play a lot of
                 online chess. You can find me on&nbsp;
                 <a
-                  href="https://www.chess.com/member/luyer74"
+                  href="https://www.chess.com/member/luisyerik"
                   target={"_blank"}
                 >
                   <Text display={"inline"} textDecoration="underline">
@@ -144,6 +138,14 @@ const About = () => {
                   </Text>
                   .
                 </a>
+              </ListItem>
+              <ListItem>
+              <ListIcon
+                  as={ChevronRightIcon}
+                  color="orange.500"
+                  boxSize={6}
+                />
+                <HobbieItem>Gym</HobbieItem> <br></br> I've been working out a lot these past few months, mainly weightlifting.
               </ListItem>
             </List>
           </Box>
@@ -271,11 +273,11 @@ const About = () => {
                   </ListItem>
                   <ListItem mt={3}>
                     <ListIcon
-                      as={SiSqlite}
+                      as={SiPostgresql}
                       color="orange.500"
                       boxSize={6}
                     ></ListIcon>
-                    SQLite
+                    PostgreSQL
                   </ListItem>
                   <ListItem mt={3}>
                     <ListIcon

@@ -37,7 +37,7 @@ const Page = () => {
                 </Text>
               </Heading>
               <Text fontSize="20px" textAlign={{ base: "center", md: "left" }}>
-                Fullstack developer, data enthusiast
+                Software Engineer, Data Enthusiast
               </Text>
             </Box>
             <Box
